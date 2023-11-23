@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <widget class="QPlainTextEdit" name="logText">
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPlainTextEdit" name="sensingText">
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>command Table</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>sensing Table</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="1">
+         <widget class="QPushButton" name="goButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>GO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5">
+         <widget class="QPushButton" name="stopButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>STOP</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="leftButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>LEFT</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="backBbutton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>BACK</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4" rowspan="3">
+         <widget class="QFrame" name="frame_3">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="QPushButton" name="startButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>START</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="rightButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>RIGHT</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3" rowspan="3">
+         <widget class="QFrame" name="frame_4">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="midButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>MID</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>startButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>start()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>744</x>
+     <y>306</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>724</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>goButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>go()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>244</x>
+     <y>286</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>122</x>
+     <y>293</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>leftButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>left()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>343</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>60</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rightButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>right()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>392</x>
+     <y>338</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>314</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>midButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>mid()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>219</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>153</x>
+     <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>backBbutton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>back()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>237</x>
+     <y>381</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>357</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>stopButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>675</x>
+     <y>346</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>656</x>
+     <y>372</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>start()</slot>
+  <slot>go()</slot>
+  <slot>back()</slot>
+  <slot>left()</slot>
+  <slot>right()</slot>
+  <slot>mid()</slot>
+  <slot>stop()</slot>
+ </slots>
+</ui>
